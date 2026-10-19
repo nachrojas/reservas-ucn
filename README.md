@@ -6,7 +6,7 @@ Plataforma backend desarrollada para gestionar la reserva de espacios físicos d
 ## Instalación
 1. Clonar el repositorio:
 ```bash
-git clone <url que pongo ahora>
+git clone <https://github.com/nachrojas/reservas-ucn.git>
 cd reservas-ucn
 ```
 2. Crear y activar el entorno virtual:

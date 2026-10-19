@@ -42,7 +42,7 @@ class ReservaCreate(ReservaBase):
     pass
 
 class ReservaUpdate(BaseModel):
-    """Esquema para PATCH: todos los campos son opcionales (modificación parcial)"""
+    """Esquema para PATCH: todos los campos son opcionales"""
     usuario_id: Optional[int] = Field(default=None, gt=0)
     espacio_id: Optional[int] = Field(default=None, gt=0)
     fecha: Optional[date] = None
